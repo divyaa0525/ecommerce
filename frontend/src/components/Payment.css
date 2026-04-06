@@ -1,0 +1,76 @@
+.payment-container {
+  max-width: 420px;
+  margin: auto;
+  padding: 20px;
+  font-family: Arial;
+}
+
+/* SUMMARY */
+.summary {
+  background: #f5f5f5;
+  padding: 15px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.summary h2 {
+  margin: 5px 0;
+}
+
+/* PAYMENT BOX */
+.payment-box {
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  padding: 15px;
+  margin-bottom: 15px;
+  cursor: pointer;
+  background: white;
+  transition: 0.2s;
+}
+
+.payment-box.active {
+  border: 2px solid #4caf50;
+}
+
+/* INPUTS */
+.payment-box input {
+  width: 100%;
+  padding: 10px;
+  margin-top: 10px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+}
+
+.row {
+  display: flex;
+  gap: 10px;
+}
+
+/* BANKS */
+.banks {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.banks button {
+  padding: 10px;
+  border: 1px solid #ccc;
+  background: #fafafa;
+  cursor: pointer;
+  border-radius: 6px;
+}
+
+/* PAY BUTTON */
+.pay-btn {
+  width: 100%;
+  padding: 14px;
+  background: green;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  font-size: 16px;
+  margin-top: 20px;
+  cursor: pointer;
+}
