@@ -2,7 +2,7 @@ import { Link, useNavigate } from "react-router-dom";
 
 const Navbar = () => {
   const navigate = useNavigate();
-  const username = localStorage.getItem("username") || "User";
+  //const username = localStorage.getItem("username") || "User";
 
   const handleLogout = () => {
     localStorage.clear();
@@ -51,7 +51,7 @@ const Navbar = () => {
         </Link>
 
         <span style={{ marginRight: "15px" }}>
-          Welcome {username}
+          Welcome Honey
         </span>
 
         <button
